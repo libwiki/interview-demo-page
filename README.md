@@ -1,8 +1,8 @@
-## Vue3 + VantUI移动端基础模板
+## Vue3 + VantUI demo
 
 ### 在线预览地址
 
-<a target="_blank" href="https://libwiki.github.io/vue3-vant-template/">https://libwiki.github.io/vue3-vant-template/</a>
+<a target="_blank" href="https://libwiki.github.io/interview-demo-page/">https://libwiki.github.io/interview-demo-page/</a>
 
 ### 主要依赖
 
@@ -78,7 +78,7 @@ onUnmounted(() => { // 离开页面时移除事件监听
 ### 基础配置文件与导航菜单配置
 
 * 1、```src/config/Config.js```为项目全局基础配置，项目中将直接引用该文件。配置的上游数据来源于项目根目录下的```.env.*```
-* 2、```src/config/TabbarConfig.js```为项目的底部导航栏菜单的名称与图标配置（是否开启导航需要配合路由文件的```meta.tabbar使用```）
+
 
 ### axios网络请求库的两次封装
 
@@ -86,9 +86,6 @@ onUnmounted(() => { // 离开页面时移除事件监听
 * 2、```src/api/Http.js```文件为```axios```实例的易用性封装（实际进行网络请求会直接使用该模块）
 * 3、网络库的具体使用案例请参考：```src/api/modules/User.js````
 
-### 用户登录功能hooks参考
-
-* 1、用户登录等相关功能均在```src/hooks/user/useUserLogin.js```文件中处理了（该文件仅是一个hooks使用案例，抛砖引玉，可移除。如果需要使用请完善内部的登录、退出、请求用户信息函数的功能）
 
 
 ### rem适配说明
