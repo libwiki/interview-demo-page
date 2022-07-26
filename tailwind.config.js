@@ -29,6 +29,7 @@ module.exports = {
             colors: {
                 dark: "#27292B", // 默认的深黑色字体颜色
                 light: "#858C96", // 默认的浅黑色字体颜色
+                'light-white': "#F7F7F7", // 默认的浅白色背景颜色
             },
             fontSize: {
                 ...unitValues,

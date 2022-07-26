@@ -1,9 +1,9 @@
-const designWidth = 375; // 设计稿的宽度
+const designWidth = 750; // 设计稿的宽度
 const rootValue = designWidth / 10;
 
 module.exports = {
     designWidth, // 设计稿的宽度
-    maxViewPort: 760, // 最大视口宽度
+    maxViewPort: 750, // 最大视口宽度
     rootValue,
     pxToRem,
     twRemToRem,
